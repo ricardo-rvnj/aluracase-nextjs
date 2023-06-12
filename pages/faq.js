@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import React, { useEffect, useState } from 'react'
 import Link from '../src/components/Link'
 import PageTitle from '../src/screens/PageTitle';
@@ -21,7 +20,7 @@ export async function getStaticProps() {
 }
 
 
-const faq = ({faq}) => {
+const FAQPage = ({faq}) => {
   return (
     <div>
       <PageTitle>FAQ - Alura Cases Campanha</PageTitle>
@@ -43,4 +42,4 @@ const faq = ({faq}) => {
   )
 }
 
-export default faq
+export default FAQPage
